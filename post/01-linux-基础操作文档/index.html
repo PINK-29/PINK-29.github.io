@@ -20,15 +20,13 @@
 
 
   
-    
-  
 
 <title>
-  Blog | PINK-29
+  Linux 基础操作 | PINK-29
 </title>
 <meta
   name="description"
-  content="星垂远野阔，月映故人心。"
+  content="Linux，如同一位优雅的指挥家，以简洁精准的命令行语言，奏响系统管理的交响乐章。"
 />
 
 
@@ -112,12 +110,12 @@
 
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Blog | PINK-29" />
+  <meta property="og:title" content="Linux 基础操作 | PINK-29" />
   <meta
     property="og:description"
-    content="星垂远野阔，月映故人心。"
+    content="Linux，如同一位优雅的指挥家，以简洁精准的命令行语言，奏响系统管理的交响乐章。"
   />
-  <meta property="og:url" content="https://PINK-29.github.io/tags/blog/" />
+  <meta property="og:url" content="https://PINK-29.github.io/post/01-linux-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3/" />
   <meta
     property="og:site_name"
     content="活捉一只小粉"
@@ -130,6 +128,8 @@
   <meta property="article:published_time" content="2025-03-27T21:40:25&#43;08:00" />
   <meta property="article:modified_time" content="2025-03-27T21:40:25&#43;08:00" />
   
+    <meta property="article:tag" content="大数据Linux命令操作" />
+  
   
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="/" />
@@ -140,7 +140,6 @@
   
 
 
-<link rel="alternate" type="application/rss+xml" href="https://PINK-29.github.io/tags/blog/index.xml" title="活捉一只小粉">
 
 
 <link rel="shortcut icon" href="/faviconZT.ico">
@@ -318,13 +317,12 @@
             
           
         </div>
-        <a class="main-nav-link" href="https://ahaitang.top/">友链</a>
+        <a class="main-nav-link" href="/friend">友链</a>
       </span>
     
     <a id="main-nav-toggle" class="nav-icon"></a>
   </nav>
   <nav id="sub-nav">
-    <a id="nav-rss-link" class="nav-icon" href="https://PINK-29.github.io/tags/blog/index.xml" title="RSS 订阅" target="_blank"></a>
     
     
   </nav>
@@ -332,11 +330,9 @@
 <header id="header">
   
     
-      <picture>
-        
-      </picture>
       
-        <img  fetchpriority="high" src="/images/bannerZT.webp" alt="Blog">
+        <picture></picture>
+        <img  fetchpriority="high" src="https://cdn.jsdelivr.net/gh/PINK-29/My-Site-Images@main/Imagescover_1.JPG" alt="Linux 基础操作">
       
     
   
@@ -351,7 +347,7 @@
   
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">标签</h1>
+            <h1 data-aos="slide-up">Linux 基础操作</h1>
           </a>
         
       
@@ -359,11 +355,7 @@
       
         
         
-          
-        
         <h2 id="subtitle-wrap" data-aos="slide-down">
-          
-            <a href="/" id="subtitle">Blog</a>
           
         </h2>
       
@@ -377,13 +369,39 @@
   
   
   
-  <div class="sidebar-wrapper ">
+  <div class="sidebar-wrapper wrap-sticky">
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
     >
       
         
+          <div class="sidebar-toc-sidebar">
+            <div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-linux-目录-基础操作">1. Linux 目录 基础操作</a>
+      <ul>
+        <li><a href="#11-目录操作切换查看">1.1 目录操作【切换、查看】</a></li>
+        <li><a href="#12-目录操作增删改查">1.2 目录操作【增、删、改、查】</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-linux-文件-基础操作">2. Linux 文件 基础操作</a>
+      <ul>
+        <li><a href="#21-文件操作增删改查">2.1 文件操作【增，删，改，查】</a></li>
+        <li><a href="#22-其他操作">2.2 其他操作</a></li>
+      </ul>
+    </li>
+    <li><a href="#附录-指令速览">附录: 指令速览</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+          </div>
+          <div class="sidebar-common-sidebar hidden">
+            
 <div class="sidebar-author">
   <img
     data-src="/avatar/../images/avatarZT.webp"
@@ -408,7 +426,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">3</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -467,7 +485,7 @@
     <div class="sidebar-menu-link-wrap">
       <a
         class="sidebar-menu-link-dummy"
-        href="https://ahaitang.top/"
+        href="/friend"
         aria-label="友链"
       ></a>
       <div class='sidebar-menu-icon icon rotate'>
@@ -482,220 +500,263 @@
   
 </div>
 
+          </div>
+        
       
 
+      
+        
+          <div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div>
+        
       
     </div>
   </div>
 
   <div class="sidebar-widget">
     
-      
-        
-
-      
-        
-  <div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <div style="display: flex; justify-content: space-between;">
-        <h3 class="widget-title">标签</h3>
-        
-      </div>
-      <div class="widget">
-        <ul class="tag-list" itemprop="keywords">
-          
-          
-            
-            <li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/blog/"
-                  aria-label="标签: Blog"
-                >
-                  Blog
-                </a>
-              </li>
-              
-            
-          
-            
-            <li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/linux/"
-                  aria-label="标签: Linux"
-                >
-                  Linux
-                </a>
-              </li>
-              
-            
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-      
-        
-<div class="widget-wrapper">
-  <div
-    class="widget-wrap"
-    data-aos="fade-up"
-  >
-    <h3 class="widget-title">标签云</h3>
-    
-    <div class="widget tagcloud">
-      
-      
-        
-          
-          <a
-            style="font-size:20px"
-            href="/tags/blog/"
-            aria-label="标签: Blog"
-            >Blog</a
-          >
-          
-        
-      
-        
-          
-          <a
-            style="font-size:20px"
-            href="/tags/linux/"
-            aria-label="标签: Linux"
-            >Linux</a
-          >
-          
-        
-      
-    </div>
-  </div>
-</div>
-
-      
-        
-  
-  <div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <h3 class="widget-title">最新文章</h3>
-      <div class="widget">
-        <ul>
-          
-            <li>
-              <a href="https://PINK-29.github.io/post/linux-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/">Linux 基础操作</a>
-            </li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-      
-    
   </div>
   
 </aside>
 
           <section id="main">
+  <article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
   <div
-    class="archives-outer-wrap"
+    class="article-inner"
     data-aos="fade-up"
   >
-    
-      <div class="tag-wrap">
-  
-    <div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
+    <div class="article-meta">
+      <div class="article-date">
+  <span
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2025-03-27 21:40:25 &#43;0800 CST" itemprop="datePublished"
+      >2025-03-27</time
     >
-      <a class="archives-tag-list-link" href="/tags/blog/"
-        >Blog</a
-      >
-    </div>
-  
-    <div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
+    <time style="display: none;" id="post-update-time"
+      >2025-03-27</time
     >
-      <a class="archives-tag-list-link" href="/tags/linux/"
-        >Linux</a
-      >
-    </div>
+  </span>
+</div>
+
+      <div class="article-category">
   
 </div>
-<div class="category-wrap">
-  
-</div>
-    
-    
 
-
-
-  <section class="archives-wrap" data-aos="fade-up">
-    <div class="archive-year-wrap">
-      <a href="" class="archive-year">2025</a>
     </div>
-    <ul>
+    <div class="hr-line"></div>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
       
-        <li class="archive-article">
-          <div class="archive-article-date-wrap">
-            <span>
-              <time
-                class="dt-published"
-                datetime="2025-03-27 21:40:25 &#43;0800 CST"
-                itemprop="datePublished"
-                >2025-03</time
-              >
-            </span>
-          </div>
-          
-            <a class="archive-article-title" href="https://PINK-29.github.io/post/linux-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"
-              >Linux 基础操作</a
-            >
-          
-        </li>
       
-    </ul>
-  </section>
+        <h2 id="1-linux-目录-基础操作">
+<a class="header-anchor" href="#1-linux-%e7%9b%ae%e5%bd%95-%e5%9f%ba%e7%a1%80%e6%93%8d%e4%bd%9c"></a>
+1. Linux 目录 基础操作
+</h2><h3 id="11-目录操作切换查看">
+<a class="header-anchor" href="#11-%e7%9b%ae%e5%bd%95%e6%93%8d%e4%bd%9c%e5%88%87%e6%8d%a2%e6%9f%a5%e7%9c%8b"></a>
+1.1 目录操作【切换、查看】
+</h3><ul>
+<li><strong>切换目录: cd</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /             <span class="c1"># 切换到根目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~             <span class="c1"># 切换到主目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> -             <span class="c1"># 切换到上次访问的目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..            <span class="c1"># 返回上一级目录</span>
+</span></span></code></pre></div><ul>
+<li><strong>查看目录: ls 和 pwd</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls -a            <span class="c1"># 查看该目录下所有文件或目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ls -l            <span class="c1"># (简写ll)以列表形式查看文件或目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">pwd</span>              <span class="c1"># 显示目前所在目录</span>
+</span></span></code></pre></div><hr>
+<h3 id="12-目录操作增删改查">
+<a class="header-anchor" href="#12-%e7%9b%ae%e5%bd%95%e6%93%8d%e4%bd%9c%e5%a2%9e%e5%88%a0%e6%94%b9%e6%9f%a5"></a>
+1.2 目录操作【增、删、改、查】
+</h3><ul>
+<li><strong>创建目录: mkdir</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir XXX/               <span class="c1"># 在当前目录下创建一个名为XXX的目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mkdir -p XXX/SS/         <span class="c1"># 在当前目录下创建XXX一并创建子目录SS</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mkdir /XXX/SS            <span class="c1"># 在指定目录XXX下创建一个名为SS的目录</span>
+</span></span></code></pre></div><ul>
+<li><strong>删除目录或文件: rm 和 rmdir</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rmdir XXX                <span class="c1"># 删除XXX这个目录(XXX为空的目录)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">rm -rf XXX/              <span class="c1"># 删除当前目录下XXX这个目录</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">rm -rf *                 <span class="c1"># 删除当前目录下所有文件和目录(慎用~)</span>
+</span></span></code></pre></div><ul>
+<li><strong>目录修改: mv 和 cp</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mv XXX/ SSS/             <span class="c1"># 将目录名XXX修改为新的目录名SSS</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mv XXX SSS/              <span class="c1"># 将XXX这个目录移动到SSS这个目录下</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cp -r XXX/ SSS/          <span class="c1"># 将XXX目录复制到SSS目录下</span>
+</span></span></code></pre></div><ul>
+<li><strong>搜索目录: find</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">find /XXX -name <span class="s1">&#39;S*&#39;</span>      <span class="c1"># 查找/XXX目录下的所有以S开头的目录或文件</span>
+</span></span></code></pre></div><hr>
+<h2 id="2-linux-文件-基础操作">
+<a class="header-anchor" href="#2-linux-%e6%96%87%e4%bb%b6-%e5%9f%ba%e7%a1%80%e6%93%8d%e4%bd%9c"></a>
+2. Linux 文件 基础操作
+</h2><h3 id="21-文件操作增删改查">
+<a class="header-anchor" href="#21-%e6%96%87%e4%bb%b6%e6%93%8d%e4%bd%9c%e5%a2%9e%e5%88%a0%e6%94%b9%e6%9f%a5"></a>
+2.1 文件操作【增，删，改，查】
+</h3><ul>
+<li><strong>新建文件: touch</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">touch A.txt               <span class="c1"># 在当前目录创建一个名为A.txt的文件</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">touch B.txt C.txt D.txt   <span class="c1"># 在当前目录下创建多个文件B.txt、C.txt、D.txt</span>
+</span></span></code></pre></div><ul>
+<li><strong>删除文件: rm</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rm -rf /XXX/A.txt          <span class="c1"># 删除/XXX目录下的A.txt文件</span>
+</span></span></code></pre></div><ul>
+<li><strong>修改文件内容: vi 或 vim</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">vi A.txt                   <span class="c1"># 进入A.txt进行编辑</span>
+</span></span></code></pre></div><ul>
+<li><strong>文件移动或重命名: mv</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mv A.txt B.txt             <span class="c1"># 将当前目录下的A.txt重命名为B.txt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mv /XXX/C.txt /XXX/D.txt   <span class="c1"># 将/XXX目录下的C.txt重命名为D.txt</span>
+</span></span></code></pre></div><ul>
+<li><strong>文件的复制: cp</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp A.txt XXX/              <span class="c1"># 将当前目录下的A.txt复制到XXX目录下</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cp A.txt XXX/B.txt         <span class="c1"># 将当前目录下的A.txt复制到XXX目录下重命名为B.txt</span>
+</span></span></code></pre></div><ul>
+<li><strong>查看文件内容【查】</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat /etc/sudo.conf         <span class="c1"># 使用cat查看/etc/sudo.conf文件</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">more /etc/sudo.conf        <span class="c1"># 使用more查看/etc/sudo.conf文件</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">less /etc/sudo.conf        <span class="c1"># 使用less查看/etc/sudo.conf文件</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">head -5 /etc/sudo.conf     <span class="c1"># 使用head -5 查看/etc/sudo.conf文件的前5行内容</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">tail -5 /etc/sudo.conf     <span class="c1"># 使用tail -5 查看/etc/sudo.conf文件的后5行内容</span>
+</span></span></code></pre></div><hr>
+<h3 id="22-其他操作">
+<a class="header-anchor" href="#22-%e5%85%b6%e4%bb%96%e6%93%8d%e4%bd%9c"></a>
+2.2 其他操作
+</h3><ul>
+<li><strong>创建链接文件：ln</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ln A.txt X                  <span class="c1"># 创建A.txt文件的硬链接X</span>
+</span></span></code></pre></div><ul>
+<li><strong>发送其他主机文件: scp</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">scp 文件路径 目标主机IP/域名:目标路径
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">scp -r /XXX/A 192.168.10.101:/XXX
+</span></span></code></pre></div><hr>
+<h2 id="附录-指令速览">
+<a class="header-anchor" href="#%e9%99%84%e5%bd%95-%e6%8c%87%e4%bb%a4%e9%80%9f%e8%a7%88"></a>
+附录: 指令速览
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls               <span class="c1"># 列出子目录及文件(list files)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span>               <span class="c1"># 切换指定目录(change directory)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">pwd</span>              <span class="c1"># 显示当前目录(print work directory)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mkdir            <span class="c1"># 创建一个目录或文件(make directory)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">rmdir            <span class="c1"># 删除一个目录或文件(remove directory)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cp               <span class="c1"># 复制文件或目录(copy file)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">rm               <span class="c1"># 删除文件或目录(remove)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mv               <span class="c1"># 移动文件或目录/修改其名称(move file)</span>
+</span></span></code></pre></div>
+      
+    </div>
+    <footer class="article-footer">
+      
 
+      
 
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <ul class="article-tag-list" itemprop="keywords">
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/%e5%a4%a7%e6%95%b0%e6%8d%ae"
+        rel="tag"
+        >大数据</a
+      >
+    </li>
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/linux"
+        rel="tag"
+        >LINUX</a
+      >
+    </li>
+  
+    <li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/%e5%91%bd%e4%bb%a4%e6%93%8d%e4%bd%9c"
+        rel="tag"
+        >命令操作</a
+      >
+    </li>
+  
+</ul>
+
+    </footer>
   </div>
   
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-<nav id="page-nav" data-aos="fade-up">
-  
-  
     
-      
-        <span class="page-number current">1</span>
-      
-    
+
   
-  
-</nav>
+</article>
+
+
+
+
+
+
+
+
+
 
 </section>
         </div>
@@ -740,7 +801,7 @@
       <div>
         <span class="icon-brush"
           >&nbsp;
-            234
+            237
           </span
         >
         &nbsp;|&nbsp;
@@ -786,6 +847,32 @@
   <div class="sidebar-wrap">
     
       
+        <div class="sidebar-toc-sidebar">
+          <div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-linux-目录-基础操作">1. Linux 目录 基础操作</a>
+      <ul>
+        <li><a href="#11-目录操作切换查看">1.1 目录操作【切换、查看】</a></li>
+        <li><a href="#12-目录操作增删改查">1.2 目录操作【增、删、改、查】</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-linux-文件-基础操作">2. Linux 文件 基础操作</a>
+      <ul>
+        <li><a href="#21-文件操作增删改查">2.1 文件操作【增，删，改，查】</a></li>
+        <li><a href="#22-其他操作">2.2 其他操作</a></li>
+      </ul>
+    </li>
+    <li><a href="#附录-指令速览">附录: 指令速览</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+        </div>
+        <div class="sidebar-common-sidebar hidden">
+          
 <div class="sidebar-author">
   <img
     data-src="/avatar/../images/avatarZT.webp"
@@ -810,7 +897,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">3</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -869,7 +956,7 @@
     <div class="sidebar-menu-link-wrap">
       <a
         class="sidebar-menu-link-dummy"
-        href="https://ahaitang.top/"
+        href="/friend"
         aria-label="友链"
       ></a>
       <div class='sidebar-menu-icon icon rotate'>
@@ -884,8 +971,17 @@
   
 </div>
 
+        </div>
+      
     
   </div>
+  
+    
+      <div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div>
+    
   
 </nav>
 
@@ -1016,9 +1112,9 @@
       <script data-pjax>
         window.REIMU_POST = {
           author: "PINK-29",
-          title: "Blog",
-          url: "https:\/\/PINK-29.github.io\/tags\/blog\/",
-          description: "",
+          title: "Linux 基础操作",
+          url: "https:\/\/PINK-29.github.io\/post\/01-linux-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3\/",
+          description: "Linux，如同一位优雅的指挥家，以简洁精准的命令行语言，奏响系统管理的交响乐章。",
           cover: "https:\/\/PINK-29.github.io\/images\/bannerZT.webp",
         };
       </script>
