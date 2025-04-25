@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 活捉一只小粉</title>
+    <link>https://PINK-29.github.io/tags/</link>
+    <description>Recent content in Tags on 活捉一只小粉</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 27 Mar 2025 21:40:25 +0800</lastBuildDate>
+    <atom:link href="https://PINK-29.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://PINK-29.github.io/tags/linux/</link>
+      <pubDate>Thu, 27 Mar 2025 21:40:25 +0800</pubDate>
+      <guid>https://PINK-29.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>大数据</title>
+      <link>https://PINK-29.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
+      <pubDate>Thu, 27 Mar 2025 21:40:25 +0800</pubDate>
+      <guid>https://PINK-29.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>命令操作</title>
+      <link>https://PINK-29.github.io/tags/%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Thu, 27 Mar 2025 21:40:25 +0800</pubDate>
+      <guid>https://PINK-29.github.io/tags/%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
